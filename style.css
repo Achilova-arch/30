@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+
+  padding: 30px;
+    background-color: black;
+}
+
+h3 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+}
+
+.text {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+input {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #666666;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    border: none;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero1 {
+    background-image: url("./slider2\ 2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding-top: 70px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+    padding-bottom: 60px;
+}
+
+.btn2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: black;
+    padding: 10px;
+    background-color: #76B900;
+    border: none;
+    margin-top: 30px;
+}
+.hero2 {
+ display: flex;
+justify-content: space-between;
+gap: 15px;
+flex-wrap: wrap;
+padding:40px ;
+
+}
+h4{
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color: black;
+margin-top: 15px;
+}
+h5{
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+color: black;
+margin-top: 50px;
+}
+h1{
+font-weight: 700;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 0%;
+padding-bottom:40px ;
+
+}
+.card{
+    background-color: white;
+    width: 290px;
+    height: 302px;
+    box-shadow: 0px 17px 27px -4px #00000040;
+   text-align: center;
+}
+.hero3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.footer{
+    width: 1276px;
+    height: 211px;
+    display: flex;align-items: center;
+    justify-content: space-evenly;
+    
+}
